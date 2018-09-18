@@ -1,0 +1,365 @@
+@import "./foundation-emails";
+$theme: #ef8c51;
+$bg_1: #fbe8cb;
+$bg_2: #f8f6f0;
+$bg_3: #f5f2f2;
+$bg_4: #c7c7c7;
+$white: #fff;
+$black: #473e3c;
+$green: #68aa7c;
+$blue: #00a2dc;
+$pink: #8e358d;
+$oil: #9b8d2f;
+$brown: #983820;
+$yellow: #ff9700;
+
+.wrapper {
+  border: 1px solid #e6e6e6;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pl-5 {
+  padding-left: 5px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+.pt-15 {
+  padding-top: 15px !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.p-win {
+  padding: 25px 40px!important;
+}
+.br {
+  width: 1px;
+  height: 175px;
+  background-color: $theme;
+}
+.theme-bg {
+  background-color: $theme;
+}
+
+.bg-1 {
+  background-color: $bg_1;
+  table {
+    background-color: $bg_1;
+  }
+}
+
+.bg-2 {
+  background-color: $bg_2;
+  table {
+    background-color: $bg_2;
+  }
+}
+
+.bg-3 {
+  background-color: $bg_3;
+  table {
+    background-color: $bg_3;
+  }
+}
+
+.bg-4 {
+  background-color: $bg_4;
+  table {
+    background-color: $bg_4;
+  }
+}
+
+
+.fz-13 {
+  font-size: 13px;
+}
+
+.fz-15 {
+  font-size: 15px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-17 {
+  font-size: 17px;
+}
+.fz-23 {
+  font-size: 23px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.shadow {
+  background: #eee;
+  padding: 10px;
+  margin: auto;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
+
+.pink {
+  color: $pink;
+}
+
+.oil {
+  color: $oil;
+}
+
+.brown {
+  color: $brown;
+}
+
+.theme {
+  color: $theme;
+}
+
+.bordered {
+  border: 1px solid $theme;
+  background-color: $bg_1;
+  padding: 2px 7px;
+}
+
+.link {
+  color: $theme;
+  border-bottom: 1px solid $theme;
+}
+
+.btn {
+  &.yellow{
+    background-color: $yellow;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $white;
+    font-size: 12px;
+  }
+}
+.header {
+  width: 100%;
+}
+
+.top-link {
+  margin-bottom: 0;
+  a {
+    font-size: 15px;
+    color: $white;
+    white-space: nowrap;
+
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.web-link {
+  font-size: 11px;
+  line-height: 20px;
+  margin-bottom: 0;
+  color: $black;
+
+  a {
+    color: $theme;
+    text-decoration: underline;
+  }
+}
+
+.sale {
+  font-size: 17px;
+  font-weight: bold;
+  color: $theme;
+}
+
+.advantage {
+  .img {
+    vertical-align: top;
+    padding-top: 3px;
+
+    .text{
+      width: 20px;
+      height: 25px;
+    }
+    .favorites {
+      width: 26px;
+      height: 25px;
+    }
+    .certificate {
+      width: 28px;
+      height: 21px;
+    }
+    .book {
+      width: 19px;
+      height: 27px;
+    }
+
+  }
+  p{
+    margin: 0;
+    span {
+      white-space: nowrap;
+    }
+  }
+}
+
+.table-border {
+  width: 22px;
+  background-color: $theme;
+}
+
+.public {
+  p {
+    span {
+      display: block;
+    }
+  }
+  .img {
+    vertical-align: top;
+    padding-top: 3px;
+
+    .secure {
+      width: 22px;
+      height: 25px;
+    }
+    .edit {
+      width: 25px;
+      height: 25px;
+    }
+    .database {
+      width: 25px;
+      height: 25px;
+    }
+    .compose {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &-link {
+    .table-border {
+      width: 18px;
+      &.last{
+        width: 19px;
+      }
+    }
+  }
+}
+
+.author-public {
+  .img {
+
+    img {
+      margin: auto;
+    }
+
+    .print {
+      width: 39px;
+      height: 42px;
+      padding-top: 7px;
+    }
+    .paper {
+      width: 39px;
+      height: 42px;
+      padding-top: 7px;
+    }
+    .barcode {
+      width: 43px;
+      height: 32px;
+      padding-top: 17px;
+    }
+    .invoice {
+      width: 38px;
+      height: 43px;
+      padding-top: 6px;
+    }
+    .cup {
+      width: 38px;
+      height: 49px;
+    }
+    .truck {
+      width: 43px;
+      height: 32px;
+      padding-top: 17px;
+    }
+  }
+  p {
+    margin-top: 10px;
+  }
+}
+
+.social {
+  img {
+    width: 97px;
+    display: inline-block !important;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+}
+.footer {
+  p {
+    font-size: 10px;
+    a {
+      font-size: 10px;
+      color: #9a9a9a;
+      border-bottom-color: #9a9a9a;
+      &.theme {
+        color: $theme;
+        border-bottom-color: $theme;
+      }
+    }
+  }
+}
+
+.mail-img {
+  img{
+    margin: auto;
+    padding-top: 40px;
+  }
+}
+
+.lead-bottom {
+  p {
+    font-size: 12px;
+    color: $white;
+    padding-top: 7px;
+    text-align: center;
+  }
+}

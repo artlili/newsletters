@@ -1,0 +1,59 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- The character set should be utf-8 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Enables media queries -->
+  <meta name="viewport" content="width=device-width"/>
+  <!-- Link to the email's CSS, which will be inlined into the email -->
+  <link rel="stylesheet" href="../css/styles.css" inline>
+</head>
+<body>
+    <table class="body">
+
+
+      <tr>
+        <td>
+          <spacer size="20"></spacer>
+          <center>
+            <container>
+              <row class="wrapper">
+
+                <columns class="p-win" small="12" large="8">
+                    <img src="http://portfolio.10dev.ru/Sibak/newsletters/img/logo.png" alt="Mail box">
+                    <spacer size="25"></spacer>
+                    <h3 class="brown">Уважаемый автор!</h3>
+                    <p>Вы не завершили заполнение заявки на публикацию статьи в конференции</p>
+                    <p class="brown">Общественные и экономические науки</p>
+                    <p>Вы можете продолжить заполнение заявки с этапа, на котором остановились, нажав на кнопку ниже</p>
+                    <spacer size="15"></spacer>
+                    <a href="" class="btn yellow">Продолжить заполнение заявки</a>
+                    <spacer size="20"></spacer>
+                </columns>
+
+                <columns class="bg-3" small="12" large="4">
+                  <p class="mail-img">
+                    <img src="http://portfolio.10dev.ru/Sibak/newsletters/img/bg.png" alt="Mail box">
+                  </p>
+                </columns>
+
+              </row>
+            </container>
+            <container>
+              <row>
+                <columns class="bg-4 lead-bottom pb-0">
+                  <p>Вы получили это письмо, так как являетесь клиентом компании «СибАК». Чтобы не получать
+письма на адрес {{_Email}}, нажмите на ссылку.</p>
+                </columns>
+              </row>
+            </container>
+          </center>
+        </td>
+      </tr>
+
+
+  </table>
+
+</body>
+</html>
